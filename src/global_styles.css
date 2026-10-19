@@ -1,0 +1,32 @@
+/* Importar tipografía coreana */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;500;700&display=swap");
+
+/* Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans KR", system-ui, sans-serif;
+  background-color: #fdfbf3;
+  color: #1c1b16;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #faf3dc;
+}
+::-webkit-scrollbar-thumb {
+  background: #a53030;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #872c2c;
+}
